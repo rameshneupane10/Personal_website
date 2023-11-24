@@ -1,0 +1,45 @@
+body {
+   font-family: "Open Sans", sans-serif;
+   color: #74d0d0;
+   margin: 0;
+ }
+ a {
+   color: rgb(212, 21, 4);
+   text-decoration: none;
+   font-size: 30px;
+ }
+.nav_menu
+{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   background: rgb(246, 191, 186);
+
+}
+.nav_list
+{
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+.nav_link
+{
+   font-size: large;
+   font-family: cursive;
+}
+.nav_item
+{
+   list-style: none;
+   margin: 0 15px;
+}
+#background
+{
+   width: 100%;
+   height: 100vh;
+   background: url(DSC_0358.jpg) ;
+   background-size: cover;
+   opacity: 50%;
+   fill: #dd1450;
+}
