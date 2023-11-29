@@ -133,5 +133,13 @@
 }
 .tab:hover::after
 {
-  width: 100%;
+  width: 80%;
+}
+.tab-contents
+{
+  display: none;
+}
+.tab-contents.active-tab
+{
+  display: block;
 }

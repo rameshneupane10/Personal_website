@@ -10,7 +10,7 @@
         <div id="header">
             <div class="container">
                 <nav>
-                    <img src="logo1.png" class="logo" alt="">
+                   <a href=""> <img src="logo1.png" class="logo" alt=""></a>
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#about">About</a></li>
@@ -26,7 +26,7 @@
                 </div>
             </div>
         </div>
-
+        <!-- -------------------------about----------------------------- -->
         <div id="about">
             <div class="container">
                 <div class="row">
@@ -42,13 +42,29 @@
                               I am a self-motivated and enthusiastic individual.</p>
 
                             <div class="tabs">
-                                <p class="tab">Skills</p>
-                                <p class="tab">Education</p>
-                                <p class="tab">Experience</p>
+                                <p class="tab active-links" onclick="Opentab('skills')">Skills</p>
+                                <p class="tab" onclick="Opentab('education')">Education</p>
+                                <p class="tab" onclick="Opentab('experience')">Experience</p>
                             </div>
-                            <div class="tab-contents">
+                            <div class="tab-contents active-tab" id="skills">
                                 <ul>
-                                    <li></li>
+                                    <li><span>Frontend Development</span> <br> &nbsp; &nbsp;&nbsp;&nbsp;  Knowledge of Html ,Css and JavaScript</li><br>
+                                    <li><span>Game Development</span> <br> &nbsp; &nbsp;&nbsp;&nbsp;  Basic Knowledge of Unity Game Engine</li>
+                                </ul>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2018-2020</span> <br> &nbsp; &nbsp;&nbsp;&nbsp;  Attended Highschool at Canvas Int'l College</li><br>
+                                    <li><span>2020-present </span> <br> &nbsp; &nbsp;&nbsp;&nbsp;  BIT at KIST College of Information Technology</li>
+                                </ul>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Currently I do not hold any Experiences Will be adding shortly.......</span> <br></li>
+                                 
+                                </ul>
                                 </ul>
                             </div>
                     </div>
@@ -57,4 +73,5 @@
         </div>
  
 </body>
+<script src="script.js"></script>
 </html>
